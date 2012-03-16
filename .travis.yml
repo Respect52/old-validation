@@ -15,3 +15,9 @@ before_script:
   - "pyrus install -f packages.zendframework.com/Zend_Filter-beta"
   - "pyrus install -f packages.zendframework.com/Zend_Registry-beta"
   - "phpenv rehash" 
+
+  branches:
+    except:
+      - develop-respect
+      - gh-pages
+      - master-respect
