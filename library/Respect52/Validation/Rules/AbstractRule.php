@@ -48,7 +48,7 @@ abstract class Respect52_Validation_Rules_AbstractRule implements Respect52_Vali
     {
         $exception = $this->createException();
         $input = Respect52_Validation_Exceptions_ValidationException::stringify($input);
-        $name = $this->getName() ? : "\"$input\"";
+        $name = $this->getName() ? $this->getName() : "\"$input\"";
         $params = array_merge(
             $extraParams, get_object_vars($this), get_class_vars(__CLASS__),
             compact('input')
