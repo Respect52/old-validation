@@ -5,16 +5,16 @@
   <summary>The most awesome validation engine ever created for PHP</summary>
   <description>The most awesome validation engine ever created for PHP</description>
   <lead>
-    <name>Alexandre Gomes Gaigalas</name>
-    <user>alganet</user>
-    <email>alexandre@gaigalas.net</email>
+    <name>Rogerio Prado de Jesus</name>
+    <user>rogeriopradoj</user>
+    <email>rogeriopradoj@gmail.com</email>
     <active>yes</active>
   </lead>
-  <date>2011-12-22</date>
-  <time>19:16:15</time>
+  <date>2012-03-16</date>
+  <time>00:00:00</time>
   <version>
-    <release>0.3.7</release>
-    <api>0.3.7</api>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
   </version>
   <stability>
     <release>alpha</release>
@@ -313,100 +313,16 @@
   <changelog>
     <release>
       <version>
-        <release>0.2.2</release>
-        <api>0.2.2</api>
+        <release>0.0.1</release>
+        <api>0.0.1</api>
       </version>
       <stability>
         <release>alpha</release>
         <api>alpha</api>
       </stability>
       <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
-      <date>2009-09-09</date>
-      <time>09:09:09</time>
-      <notes>This release date and time might be innacurate.</notes>
-    </release>
-    <release>
-      <version>
-        <release>0.3.2</release>
-        <api>0.3.2</api>
-      </version>
-      <stability>
-        <release>alpha</release>
-        <api>alpha</api>
-      </stability>
-      <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
-      <date>2009-09-09</date>
-      <time>09:09:09</time>
-      <notes>This release date and time might be innacurate.</notes>
-    </release>
-    <release>
-      <version>
-        <release>0.3.3</release>
-        <api>0.3.3</api>
-      </version>
-      <stability>
-        <release>alpha</release>
-        <api>alpha</api>
-      </stability>
-      <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
-      <date>2009-09-09</date>
-      <time>09:09:09</time>
-      <notes>This release date and time might be innacurate.</notes>
-    </release>
-    <release>
-      <version>
-        <release>0.3.4</release>
-        <api>0.3.4</api>
-      </version>
-      <stability>
-        <release>alpha</release>
-        <api>alpha</api>
-      </stability>
-      <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
-      <date>2009-09-09</date>
-      <time>09:09:09</time>
-      <notes>This release date and time might be innacurate.</notes>
-    </release>
-    <release>
-      <version>
-        <release>0.3.5</release>
-        <api>0.3.5</api>
-      </version>
-      <stability>
-        <release>alpha</release>
-        <api>alpha</api>
-      </stability>
-      <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
-      <date>2009-09-09</date>
-      <time>09:09:09</time>
-      <notes>This release date and time might be innacurate.</notes>
-    </release>
-    <release>
-      <version>
-        <release>0.3.6</release>
-        <api>0.3.6</api>
-      </version>
-      <stability>
-        <release>alpha</release>
-        <api>alpha</api>
-      </stability>
-      <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
-      <date>2009-09-09</date>
-      <time>09:09:09</time>
-      <notes>This release date and time might be innacurate.</notes>
-    </release>
-    <release>
-      <version>
-        <release>0.3.7</release>
-        <api>0.3.7</api>
-      </version>
-      <stability>
-        <release>alpha</release>
-        <api>alpha</api>
-      </stability>
-      <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
-      <date>2011-12-22</date>
-      <time>19:16:15</time>
+      <date>2012-03-16</date>
+      <time>00:00:00</time>
       <notes>-</notes>
     </release>
   </changelog>
