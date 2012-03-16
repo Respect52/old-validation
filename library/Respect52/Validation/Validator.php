@@ -65,9 +65,9 @@ class Respect52_Validation_Validator extends Respect52_Validation_Rules_AllOf
     public static function __callStatic($ruleName, $arguments)
     {
         if ('allOf' === $ruleName)
-            return static::buildRule($ruleName, $arguments);
+            return $this->buildRule($ruleName, $arguments);
 
-        $validator = new static;
+        $validator = new Respect52_Validation_Validator;
         return $validator->__call($ruleName, $arguments);
     }
 
@@ -90,7 +90,7 @@ class Respect52_Validation_Validator extends Respect52_Validation_Rules_AllOf
 
     public function __call($method, $arguments)
     {
-        $this->addRule(static::buildRule($method, $arguments));
+        $this->addRule($this->buildRule($method, $arguments));
         return $this;
     }
 
