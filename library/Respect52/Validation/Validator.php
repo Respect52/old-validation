@@ -98,7 +98,7 @@ class Respect52_Validation_Validator extends Respect52_Validation_Rules_AllOf
     {
         $exception = new Respect52_Validation_Exceptions_AllOfException;
         $input = Respect52_Validation_Exceptions_AllOfException::stringify($input);
-        $name = $this->getName() ? : "\"$input\"";
+        $name = $this->getName() ? $this->getName() : "\"$input\"";
         $params = array_merge(
             $extraParams, get_object_vars($this), get_class_vars(__CLASS__)
         );
