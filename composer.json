@@ -1,14 +1,14 @@
 {
-    "name": "Respect/Validation",
+    "name": "Respect52/Validation",
     "version": "0.3.5",
     "type": "library",
     "description": "The most awesome validation engine ever created for PHP.",
-    "keywords": ["respect", "validation"],
-    "homepage": "https://github.com/Respect/Validation",
+    "keywords": ["respect", "respect52", "validation"],
+    "homepage": "https://github.com/Respect52/Validation",
     "repositories": {
-        "Respect/Validation": {
+        "Respect52/Validation": {
             "vcs": {
-                "url" : "git://github.com/Respect/Validation.git"
+                "url" : "git://github.com/Respect52/Validation.git"
             }
         }
     },
@@ -21,14 +21,18 @@
         {
             "name": "Augusto Pascutti",
             "email": "augusto@phpsp.org.br"
+        },
+        {
+            "name": "Rogerio Prado de Jesus",
+            "email": "rogeriopradoj@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.2"
     },
     "autoload": {
         "psr-0": {
-            "Respect\\Validation": "library"
+            "Respect52_Validation": "library"
         }
     }
 }
