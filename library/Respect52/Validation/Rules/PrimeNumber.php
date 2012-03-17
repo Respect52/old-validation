@@ -1,6 +1,6 @@
 <?php
-namespace Respect\Validation\Rules;
-class PrimeNumber extends AbstractRule
+//namespace Respect\Validation\Rules;
+class Respect52_Validation_Rules_PrimeNumber extends Respect52_Validation_Rules_AbstractRule
 {
     public function validate($input)
     {
