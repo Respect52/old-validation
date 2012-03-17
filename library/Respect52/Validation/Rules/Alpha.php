@@ -1,10 +1,5 @@
 <?php
-
-namespace Respect\Validation\Rules;
-
-use Respect\Validation\Exceptions\ComponentException;
-
-class Alpha extends AbstractRule
+class Respect52_Validation_Rules_Alpha extends Respect52_Validation_Rules_AbstractRule
 {
 
     public $additionalChars = '';
